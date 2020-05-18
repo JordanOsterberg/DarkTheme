@@ -49,7 +49,7 @@ public static class DarkTheme
         }
  
         EditorUtility.RequestScriptReload();
-        InternalEditorUtility.RepaintAllViews();
+        InternalEditorUtility.SwitchSkinAndRepaintAllViews();
     }
  
     static void InvertColors(StyleSheet sheet)
